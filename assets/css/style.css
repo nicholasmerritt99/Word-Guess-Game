@@ -1,0 +1,71 @@
+body {
+  background: green;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  height: 100%;
+  text-align:center;
+  font-size: 18px;
+}
+
+.wrappper{
+  width:100%;
+  margin:0 auto;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+    text-transform: uppercase;
+    margin:5px 0;
+    color: green;
+}
+
+h1 {
+	font-size: 2.6px;
+}
+
+h2 {
+	font-size: 1.6px;
+}
+
+p{
+  font-size: 1.6px;
+}
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display:block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size:1.6em;
+}
+
+.active {
+  cursor:default;
+}
+
+#mylives{
+  font-size:1.6em;
+  text-align:center;
+  display:block;
+}
+
+button{
+  color:white;
+  border: solid 1px white;
+  text-decoration:none; 
+  cursor:pointer;
+  font-size:1.2em;
+  padding:18px 10px;
+  width:180px;
+  margin: 10px;
+  outline: none;
+}
